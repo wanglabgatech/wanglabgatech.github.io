@@ -1,0 +1,1360 @@
+/* Website template by freewebsitetemplates.com */
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	/*
+	background: url("../images/SanDiego.png") no-repeat center top transparent;
+	background-size: 70.5% 70.5%;
+	*/
+	margin: 0;
+	overflow: hidden;
+	padding: 0px;
+	width: auto;
+	z-index: 3;
+}
+div #forImg {
+	background: url("../images/SanDiego.png") no-repeat transparent;
+	background-size: 100% 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0px;
+	width: 90%;
+	z-index: 3;
+	height:317.6px;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+
+a.publink:link, 
+a.publink:visited { 
+color:#5b72dc; 
+text-decoration:none; 
+} 
+a.publink:hover, 
+a.publink:active { 
+text-decoration:underline; 
+} 
+
+img {
+	border: none;
+}
+/*-------------------------------------------FONTS---------------------------------------------*/
+@font-face {
+	font-family: 'audiowide-regular-webfont';
+	src: url('../fonts/audiowide-regular-webfont.eot');
+	src: url('../fonts/audiowide-regular-webfont.woff') format('woff'), url('../fonts/audiowide-regular-webfont.ttf') format('truetype'), url('../fonts/audiowide-regular-webfont.svg') format('svg');
+}
+/*----------------------------------------header-styles---------------------------------------*/
+#header {
+	background: url(../images/bg-transparent1.png) repeat;
+	margin: 0;
+	min-height: 60px;
+	padding: 0;
+	width: auto;
+	/*background:#000000;*/
+}
+#header div {
+	margin: 0 auto;
+	/*max-width: 940px;*/
+	max-width: 1145px;
+	min-height: 60px;
+	padding: 0 10px;
+}
+#header div a.logo {
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 0 44px 0 0;
+	padding: 0;
+	width: 304px;
+}
+#header div a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 287px;
+}
+#header div ul {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li a {
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 59px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 12px;
+ *padding: 0 23px; /* Needed for IE8 and old versions */
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li a:hover {
+	background-color: #620031;
+	color: #ffffff;
+}
+#header div ul li.selected a {
+	background-color: #000000;
+	color: #a3a3a3;
+}
+#header div ul li.menu {
+	position: relative;
+}
+#header div ul li.menu ul {
+	display: block;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 60px;
+	width: 142px;
+	z-index: 50;
+}
+#header div ul li.menu:hover ul.primary {
+	left: 31px;
+}
+#header div ul li.menu ul.primary.selected {
+	left: 31px;
+}
+#header div ul li.menu:hover ul.secondary {
+	left: -20px;
+}
+#header div ul li.menu ul.secondary.selected {
+	left: -20px;
+}
+#header div ul li.menu ul li {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li.menu ul li a {
+	background-color: #620031;
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li.menu ul.primary.selected li a, #header div ul li.menu ul.secondary.selected li a {
+	background-color: #000000;
+	color: #a3a3a3;
+}
+/*----------------------------------------body-home-styles---------------------------------------*/
+#body {
+	background-color: #ffffff;
+	margin: 0;
+	min-height: 808px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	background: none;
+}
+#body.home {
+	background: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home .header {
+	background: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+#body.home .header div {
+	max-width: 3000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0px;
+	position: relative;
+}
+
+#body.home .header div h1 {
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 60px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 135px 0 27px;
+	padding: 0 38px 0 350px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 503px;
+	z-index: 60;
+}
+
+#body .pushDown {
+	background: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+#body .pushDown div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	height: 317.6px;
+}
+
+#body .pushDown div h1 {
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	font-family: audiowide-regular-webfont;
+	font-size: 60px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 187px 0 27px;
+	padding: 0 38px 0 399px;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+	width: 503px;
+	z-index: 60;
+}
+
+#body.home .header div h2 {
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 43px;
+	font-weight: normal;
+	line-height: 43px;
+	margin: 0 0 36px;
+	padding: 0 146px 0 506px;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+	width: 288px;
+	z-index: 60;
+}
+#body.home .header div a.more {
+	background-color: #000000;
+	color: #a3a3a3;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: 49px;
+	line-height: 49px;
+	margin: 0 200px 0 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	width: 180px;
+	z-index: 55;
+}
+#body.home .header div a.more:hover {
+	background-color: #ab000b;
+	color: #ffffff;
+}
+#body.home .header div h3 {
+	background: url("../images/bg-transparent1.png") repeat;
+	color: rgb(134, 131, 131);
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 96px 0 0;
+ *margin: 102px 0 0;/* Needed for IE8 and old versions */
+	min-height: 27px;
+	padding: 17px 0 10px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body.home .header div ul {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0 0 -6px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#body.home .header div ul li:first-child {
+	padding: 0;
+}
+#body.home .header div ul li {
+	border: medium none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.home .header div ul li a {
+	display: block;
+	float: none;
+	height: 156px;
+	margin: 0;
+	padding: 0;
+	width: 235px;
+}
+#body.home .header div ul li a img {
+	cursor: pointer;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1.0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.home .header div ul li a img:hover {
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+#body.home .body {
+	background-color: #ffffff;
+	margin: 0;
+	min-height: 168px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home .body div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 31px 10px 0;
+}
+#body.home .body div h1 {
+	color: rgb(128, 128, 128);
+	display: block;
+	font-family: Arial;;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	padding: 0;
+	text-align: left;
+	width: 780px;
+}
+#body.home .body div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: justify;
+	padding: 0;
+	width: 950px;
+}
+
+#body.home .body #teach h1 {
+	color: rgb(0, 0, 0);
+	display: block;
+	font-family: Arial;;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	padding: 0;
+	text-align: left;
+	width: 780px;
+}
+#body.home .body #teach p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: justify;
+	padding: 0;
+	width: 950px;
+}
+
+#body.home .body .gallery ul li{
+	float:left; 
+	list-style:none;
+}
+
+#body.home .body .gallery{
+	margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0px 10px 0;
+}
+
+#body.home .body .gallery .gali{
+	width: 350px;
+}
+
+#body.home .body .gallery .twocolumns{
+	width: 700px;
+}
+
+#body.home .body .gallery ul li p{
+    word-wrap:break-word; 
+	overflow: hidden;  
+	width:350px;
+}
+
+#body.home .body .gallery ul li img{
+	width: 100%; 
+}
+
+#body.home .body .gallery ul li img .twocolumns{
+	width: 100%; 
+	height: auto;
+}
+
+#body.home .body div p a {
+	color:#5b72dc; 
+	text-decoration:none; 
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.home .body div p a:hover {
+	color: rgb(134, 131, 131);
+}
+#body.home .footer {
+	background-color: #ffffff;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home .footer div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 32px 0 16px;
+	text-align: justify;
+}
+#body.home .footer div ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+	text-align: justify;
+}
+#body.home .footer div ul li:first-child {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 460px;
+}
+#body.home .footer div ul li {
+	float: left;
+	margin: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	width: auto;
+}
+#body.home .footer div ul li h1 {
+	color: #000000;
+	font-family: audiowide-regular-webfont;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 0 0 44px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: auto;
+}
+#body.home .footer div ul li a {
+	display: block;
+	height: 258px;
+	margin: 0;
+	position: relative;
+	padding: 0;
+	width: auto;
+}
+#body.home .footer div ul li a img {
+	cursor: pointer;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1.0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.home .footer div ul li a:hover img {
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+#body.home .footer div ul li a span {
+	display: block;
+	height: 72px;
+	left: 199px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 94px;
+	width: 62px;
+}
+#body.home .footer div ul li ul {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 440px;
+	text-align: justify;
+}
+#body.home .footer div ul li ul li {
+	float: none;
+	overflow: hidden;
+	color: #000000;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 27px;
+	margin: 0 0 0px;
+	padding: 0 0 38px;
+	text-align: justify;
+	width: 300px;
+}
+#body.home .footer div ul li ul li:first-child {
+	border: medium none;
+	margin: 0;
+	padding: 0 0 38px;
+	width: 300px;
+}
+#body.home .footer div ul li ul li a {
+	display: block;
+	float: left;
+	height: auto;
+	margin: 0 0px 0 0;
+	padding: 0;
+	width: auto;
+}
+#body.home .footer div ul li ul li a img {
+	cursor: pointer;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1.0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.home .footer div ul li ul li a img:hover {
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+#body.home .footer div ul li ul li h1 {
+	color: rgb(134, 131, 131);
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0;
+	padding: 4px 0 8px;
+	text-align: justify;
+	text-transform: uppercase;
+	width: 310px;
+}
+#body.home .footer div ul li ul li span {
+	color: #000000;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-align: justify;
+	text-transform: uppercase;
+	width: 310px;
+}
+
+#body.home .footer div ul li span {
+	color: #000000;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 27px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-align: justify;
+	width: 310px;
+}
+
+#body.home .footer div ul li ul li a.more {
+	background-color: #3c0f38;
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+#body.home .footer div ul li ul li a.more:hover {
+	background-color: #620031;
+}
+/*----------------------------------------body-styles---------------------------------------*/
+#body.about .header {
+	background: url(../images/bg-about.jpg) no-repeat center top #000000;
+	margin: 0;
+	min-height: 455px;
+	padding: 0;
+	width: 100%;
+}
+
+#body.about .header div, #body .header div {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0 10px;
+	position: relative;
+}
+#body.about .header div h1{
+	color: #000000;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0 auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+
+#body .header div h1 {
+	color: #000000;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 10px auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+}
+
+h1#bigTitle{
+	color: #000000;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 10px auto 1px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+}
+
+#body .body div h1#pubTitle {
+	color: #000000;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 20px auto 70px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+}
+
+#body.about .header div h2 {
+	color: #000000;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 0 auto 24px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 820px;
+}
+#body.about .header div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 820px;
+}
+#body.about .header div p a {
+	color: #000000;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .header div p a:hover {
+	color: rgb(134, 131, 131);
+}
+#body.about .body {
+	background-color: #ffffff;
+	margin: 0;
+	min-height: 253px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.about .body div {
+	margin: 0 auto;
+	font-family: Arial;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0px 10px 35px;
+}
+#body.about .body div h2 {
+	color: rgb(134, 131, 131);
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 18px 0 26px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 620px;
+}
+
+#body.about .body div h4 {
+	color: #000000;
+	font-family: Arial;
+	line-height:200%;
+	font-weight: normal;
+}
+
+#noBold {
+	font-weight: normal;
+}
+
+#body.about .body div p {
+	color: #000000;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 620px;
+}
+#body.about .body div p a {
+	color: #000000;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .body div p a:hover {
+	color:rgb(134, 131, 131);
+}
+#body.about .body div img {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.about .footer {
+	background-color: #000000;
+	margin: 0;
+	min-height: 366px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 79px 0 0 10px;
+	width: 950px;
+}
+#body.about .footer div h2 {
+	color:rgb(134, 131, 131);
+	float: right;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 34px 0 24px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 557px;
+}
+#body.about .footer div p {
+	color: #000000;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 557px;
+}
+#body.about .footer div p a {
+	color: #000000;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .footer div p a:hover {
+	color: rgb(134, 131, 131);
+}
+#body.about .footer div img {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.about .section {
+	background-color: #3c0f38;
+	margin: 0;
+	min-height: 234px;
+	padding: 0;
+	width: auto;
+}
+#body.about .section div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 58px 0 55px;
+}
+#body.about .section div h2 {
+	color: rgb(134, 131, 131);
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 auto 26px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 780px;
+}
+#body.about .section div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 780px;
+}
+#body.about .section div p a {
+	color: #000000;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .section div p a:hover {
+	color: rgb(134, 131, 131);
+}
+
+#body .header {
+	background-color: #ffffff;
+	margin: 0;
+	min-height: 168px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+#body .header div ul {
+	display: inline-block;
+	max-width: 940px;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0px 0px 0;
+}
+#body .header div ul li:first-child {
+	border: none;
+	padding: 0 0 0;
+}
+#body .header div ul li {
+	border-top: 50px solid #FFFFFF;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0;
+	width: auto;
+}
+#body .header div ul li a {
+	display: block;
+	float: left;
+	height: 217px;
+	margin: 0 40px 0 0;
+	padding: 0;
+	width: 380px;
+	font-size: 18px;
+}
+#body .header div ul li a img {
+	cursor: pointer;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1.0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body .header div ul li a img:hover {
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+#body .header div ul li div {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 520px;
+}
+#body .header div ul li div h1 {
+	color: rgb(134, 131, 131);
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 0 8px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 520px;
+}
+#body .header div ul li div p {
+	color: #000000;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-align: left;
+	width: 520px;
+}
+
+
+#body .header div ul li div p a {
+	color: #0934f7;
+	display: inline;
+	float: none;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: auto;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+	width: auto;
+}
+#body .header div ul li div p a:hover {
+	color: rgb(134, 131, 131);
+}
+#body .header div ul li div a.more {
+	background-color: #3c0f38;
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+#body .header div ul li div p a.more:hover {
+	background-color: #620031;
+}
+#body .header div img {
+	display: block;
+	margin: 0 auto;
+	padding: 3px 0 0;
+	width: auto;
+}
+#body .header div h2 {
+	color: rgb(134, 131, 131);
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 auto;
+	padding: 53px 0 27px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 780px;
+}
+#body .header div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto 48px;
+	padding: 0;
+	text-align: center;
+	width: 780px;
+}
+#body .header div p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: underline;
+}
+#body .header div p a:hover {
+	color: rgb(134, 131, 131);
+}
+
+#body .header div .article img {
+	display: block;
+	margin: 3px 0 29px;
+	padding: 0;
+	width: auto;
+}
+#body .header div .article h1 {
+	color: rgb(134, 131, 131);
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 0 7px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: auto;
+}
+#body .header div .article span {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	margin: 0 0 29px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: auto;
+}
+#body .header div .article p {
+	color: #000000;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 24px;
+	padding: 0;
+	text-align: justify;
+	width: auto;
+}
+#body .header div .article p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body .header div .article p a:hover {
+	color: rgb(134, 131, 131);
+}
+
+#body .header .contact {
+	font-family:Arial;
+}
+#body .header .contact h2 {
+	color: rgb(134, 131, 131);
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 auto;
+	padding: 8px 0 62px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 500px;
+}
+#body .header div form {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 461px;
+}
+#body .header div form input {
+	background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: 43px;
+	line-height: 43px;
+	margin: 0 0 29px;
+	padding: 0 0 0 20px;
+	text-align: left;
+	width: 441px;
+}
+#body .header div form textarea {
+	background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: 98px;
+	line-height: 24px;
+	margin: 0 0 31px;
+	overflow: auto;
+	padding: 15px 0 0 20px;
+	resize: none;
+	text-align: left;
+	width: 441px;
+}
+#body .header div form input#submit {
+	background-color: #3c0f38;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+#body .header div form input#submit:hover {
+	background-color: #620031;
+}
+/*----------------------------------------footer-styles---------------------------------------*/
+#footer {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#footer .connect {
+	background-color: rgb(134, 131, 131);
+	margin: 0;
+	min-height: 84px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#footer .connect div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 24px 0 0;
+}
+#footer .connect div h1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0;
+	padding: 8px 25px 0 0;
+	text-align: right;
+	text-transform: uppercase;
+	width: 525px;
+}
+#footer .connect div div {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 0 20px;
+	width: 380px;
+}
+#footer .connect div div a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	float: left;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 18px;
+}
+#footer .connect div div a.facebook {
+	background-position: 0 0;
+	margin: 0 0 0 16px;
+	width: 18px;
+}
+#footer .connect div div a.twitter {
+	background-position: 0 -114px;
+	margin: 0 0 0 28px;
+	width: 44px;
+}
+#footer .connect div div a.googleplus {
+	background-position: 0 -38px;
+	margin: 0 0 0 27px;
+	width: 37px;
+}
+#footer .connect div div a.pinterest {
+	background-position: 0 -76px;
+	margin: 0 0 0 29px;
+	width: 30px;
+}
+#footer .connect div div a.facebook:hover {
+	background-position: -20px 0;
+}
+#footer .connect div div a.twitter:hover {
+	background-position: -46px -114px;
+}
+#footer .connect div div a.googleplus:hover {
+	background-position: -38px -38px;
+}
+#footer .connect div div a.pinterest:hover {
+	background-position: -32px -76px;
+}
+#footer .footnote {
+	background: url(../images/bg-transparent1.png) repeat;
+	margin: 0;
+	min-height: 84px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#footer .footnote div {
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 0px 0 0;
+	width: 960px;
+}
+#footer .footnote div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 940px;
+}
+
+#footer .footnote div table
+{
+    margin:0;
+}
+
+#footer .footnote div table td
+{
+    padding:0 80px 0 15px;
+}
+#wix {
+	max-width: 728px;
+	margin: 0 auto;
+}
+#wix a img {
+	width: 100%;
+}
